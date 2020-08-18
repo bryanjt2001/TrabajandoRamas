@@ -1,0 +1,58 @@
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git checkout pruebas
+Already on 'pruebas'
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git branch
+  master
+* pruebas
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git add .
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git status
+On branch pruebas
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Archivo1.txt
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git commit -m "Introduzco una linea en el Archivo1"
+[pruebas ca46e6d] Introduzco una linea en el Archivo1
+ 1 file changed, 1 insertion(+)
+ 
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git log --oneline
+ca46e6d (HEAD -> pruebas) Introduzco una linea en el Archivo1
+a9277fe (master) A<C3><B1>ado el archivo2
+8946784 A<C3><B1>ado el archivo1
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>TYPE Archivo1.txt
+Inserto una l├¡nea en el archivo
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git checkout master
+Switched to branch 'master'
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git checkout master
+Switched to branch 'master'
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>type Archivo1.txt
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git log --oneline
+a9277fe (HEAD -> master) A<C3><B1>ado el archivo2
+8946784 A<C3><B1>ado el archivo1
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git checkout master
+Already on 'master'
+M       Archivo1.txt
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git log --oneline
+a9277fe (HEAD -> master) A<C3><B1>ado el archivo2
+8946784 A<C3><B1>ado el archivo1
+
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git checkout pruebas
+Switched to branch 'pruebas'
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git checkout master
+Switched to branch 'master'
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>TYPE Archivo1.txt
+Inserto una l├¡nea en el archivo
+
